@@ -1,0 +1,31 @@
+movieId,userId,title,genres,rating
+m1,u1,The Godfather,"['Crime', 'Drama']",5
+m2,u1,The Shawshank Redemption,"['Drama', 'Crime']",4
+m3,u1,The Dark Knight,"['Action', 'Crime']",3
+m4,u2,The Lord of the Rings: The Fellowship of the Ring,"['Adventure', 'Fantasy']",4
+m5,u2,The Matrix,"['Action', 'Sci-Fi']",5
+m6,u3,Pulp Fiction,"['Crime', 'Comedy']",4
+m7,u3,Inception,"['Action', 'Adventure', 'Sci-Fi']",5
+m8,u4,Forrest Gump,"['Drama', 'Romance']",4
+m9,u4,The Green Mile,"['Crime', 'Drama', 'Fantasy']",5
+m10,u5,Fight Club,['Drama'],5
+m11,u5,The Silence of the Lambs,"['Crime', 'Thriller']",4
+m12,u6,Schindler's List,"['Drama', 'History']",5
+m13,u6,Saving Private Ryan,"['Drama', 'War']",4
+m14,u7,The Shawshank Redemption,"['Drama', 'Crime']",5
+m15,u7,The Godfather,"['Crime', 'Drama']",4
+m16,u8,The Dark Knight,"['Action', 'Crime']",5
+m17,u8,The Lord of the Rings: The Return of the King,"['Adventure', 'Fantasy']",4
+m18,u9,The Matrix,"['Action', 'Sci-Fi']",5
+m19,u9,Inglourious Basterds,"['Adventure', 'War']",4
+m20,u10,Pulp Fiction,"['Crime', 'Comedy']",5
+m21,u10,Goodfellas,"['Crime', 'Drama']",4
+m22,u11,The Departed,"['Crime', 'Drama', 'Thriller']",5
+m23,u11,Forrest Gump,"['Drama', 'Romance']",4
+m24,u12,The Green Mile,"['Crime', 'Drama', 'Fantasy']",5
+m25,u12,The Silence of the Lambs,"['Drama', 'Thriller']",4
+m26,u13,Schindler's List,"['Drama', 'History']",5
+m27,u13,Saving Private Ryan,"['Drama', 'War']",4
+m28,u14,The Shawshank Redemption,"['Drama', 'Crime']",5
+m29,u14,The Godfather,"['Crime', 'Drama']",4
+m30,u15,The Dark Knight,"['Action', 'Crime']",5
