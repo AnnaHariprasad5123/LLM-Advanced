@@ -1,8 +1,17 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
 from groq import Groq
+from dotenv import load_dotenv
 import streamlit as st
+
+
+load_dotenv()
+
+groq_api_key = os.getenv("GROQ_API_KEY")
+hugging_face_key = os.getenv("HUGGING_FACE_KEY")
+
 
 def get_article_text(url):
     """Fetch article text from a URL."""
@@ -16,7 +25,7 @@ def get_article_text(url):
         st.error(f"Error fetching URL {url}: {e}")
         return None
 
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": f"Bearer ${hugging_face_key}"}
 
 def query(payload, API_URL):
     """Send a query to the API and return the response."""
@@ -123,15 +132,9 @@ def main():
                     read_data = json.load(file)
                 read_data_str = json.dumps(read_data)
                 client = Groq(
-                    api_key="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"
+                    api_key=groq_api_key
                 )
                 def query_on_json(question):
-                    # asking_question = query({"inputs": {
-                    #     "question": question,
-                    #     "context": read_data_str
-                    # }}, "https://api-inference.huggingface.co/models/deepset/roberta-base-squad2")
-
-                    # 
                     chat_completion = client.chat.completions.create(
                     messages=[
                         {
